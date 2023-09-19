@@ -18,6 +18,6 @@ jobs:
           registry-url: "https://registry.npmjs.org"
           scope: "@cesarlai"
       - run: npm i -g pnpm@${PNPM_VERSION}
-      - run: pnpm run publish
+      - run: pnpm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
