@@ -1,0 +1,24 @@
+{
+  "name": "@cesarlai/web-lint-react",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "Cesar Lai",
+  "description": "An ESLint config preset for React.",
+  "repository": "git@github.com:CesarLai/web-lint-react.git",
+  "packageManager": "pnpm@8.5.1",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.15.0",
+    "@typescript-eslint/parser": "4.15.0",
+    "commitizen": "4.2.3",
+    "cross-env": "7.0.3",
+    "cz-conventional-changelog": "3.3.0",
+    "eslint": "7.20.0",
+    "eslint-config-prettier": "7.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-promise": "4.3.1",
+    "eslint-plugin-react": "7.22.0",
+    "eslint-plugin-react-hooks": "4.2.0"
+  }
+}
